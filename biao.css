@@ -1,0 +1,241 @@
+/* 导航栏 */
+body {
+    background-color: rgb(165, 151, 89);
+    margin: 0px;
+}
+
+.biaoti {
+    margin-left: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 110px;
+}
+
+small {
+    color: white;
+    font-size: 28px;
+    position: relative;
+    bottom: 22px;
+    left: -95px;
+    display: inline;
+
+}
+
+.logo {
+
+    padding-left: 40px;
+    color: white;
+    margin-left: 0px;
+
+}
+
+.LOGO1 {
+    display: inline;
+    position: relative;
+    bottom: 62px;
+    left: 18px;
+    font-size: 15px;
+}
+
+.line {
+
+    width: 120px;
+    border-bottom: solid rgb(104, 103, 103);
+    position: relative;
+    left: 249px;
+    bottom: 62px;
+}
+
+.home {
+    position: absolute;
+    left: 1630px;
+    top: 30px;
+}
+.homee{
+    position: absolute;
+    left: 1600px;
+    top: 78px;
+    font-size: 15px;
+    color: rgb(145, 143, 143);
+}
+.sy {
+    height: 50px;
+    position: absolute;
+    left: 700px;
+    top: 75px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+}
+
+.lx {
+    height: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+    position: absolute;
+    left: 940px;
+    top: 75px;
+    font-size: 18px;
+
+}
+
+.al {
+    height: 50px;
+    position: absolute;
+    left: 1200px;
+    top: 75px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+}
+
+.al:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.sy:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.lx:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.zhuye{
+    text-align: center;
+}
+span{
+    color: rgb(5, 5, 5);
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    
+}
+.gundong{
+    font-weight: bolder;
+    color: red;
+}
+/* .left1{ 
+    position: relative;
+    top: -118px;
+    left: -100px;
+
+} */
+.cp{
+    position: absolute;
+    top: 480px;
+    left: 0;
+}
+.cp img{
+    width: 450px;
+    height: 334px;
+    padding-left: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+}
+legend{
+    text-align: center;
+    color: rgb(255, 255, 254);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+/* 轮播图 */
+* {
+    margin: 0;
+    padding: 0
+}
+#box{
+    margin-top: 15px;
+}
+
+.box {
+    width: 1024px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 100px auto;
+    padding: 5px;
+
+}
+
+.inner {
+    width: 1024px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner img {
+    width: 1024px;
+    height: 300px;
+    vertical-align: top
+}
+
+ul {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 0;
+}
+
+.inner li {
+    float: left;
+
+}
+
+ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+ol li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+ol .current {
+    background-color: red;
+}
+
+#arr {
+    display: none;
+}
+
+#arr span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+
